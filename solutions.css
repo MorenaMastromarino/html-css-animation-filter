@@ -82,3 +82,18 @@
   filter: grayscale(60%) sepia(40%);
   transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+  animation: caricamento 1s linear infinite;
+}
+
+@keyframes caricamento {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+} 
+
